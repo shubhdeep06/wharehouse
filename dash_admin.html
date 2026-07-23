@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warehouse Inventory System</title>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="dash_admin.css">
+</head>
+<body>
+
+    
+    <nav class="navbar">
+
+        <div class="logo">
+        
+
+            
+            <h2>Warehouse Inventory System</h2>
+        </div>
+
+        <div class="nav-right">
+
+            <div class="notification">
+                <i data-lucide="bell"></i>
+                <span>Notifications</span>
+            </div>
+
+            <div class="admin">
+                <i data-lucide="user"></i>
+                <span>Admin</span>
+            </div>
+
+            <button class="logout">Logout</button>
+
+        </div>
+
+    </nav>
+    
+    <div class="container">
+        
+      <aside class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="#">🏠 Dashboard</a></li>
+                <li><a href="#">📦 Products</a></li>
+                <li><a href="#">📂 Categories</a></li>
+                <li><a href="#">🚚 Suppliers</a></li>
+                <li><a href="#">📥 Stock In</a></li>
+                <li><a href="#">📤 Stock Out</a></li>
+                <li><a href="#">👥 Users</a></li>
+                <li><a href="#">📊 Reports</a></li>
+                <li><a href="#">⚙️ Settings</a></li>
+                <li><a href="#">🚪 Logout</a></li>
+            </ul>
+      </aside>
+      <main class="content">
+
+    <div class="welcome">
+        <h2>Welcome Back, Admin 👋</h2>
+        <p>Manage your warehouse efficiently.</p>
+    </div>
+     <div class="search-box">
+        <input type="text" placeholder="Search by Product ID or Product Name">
+        <button>Search</button>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h2>250</h2>
+            <p>Total Products</p>
+        </div>
+
+        <div class="card">
+            <h2>18</h2>
+            <p>Categories</p>
+        </div>
+
+        <div class="card">
+            <h2>12</h2>
+            <p>Suppliers</p>
+        </div>
+
+        <div class="card">
+            <h2>7</h2>
+            <p>Staff</p>
+        </div>
+    </div>
+
+   
+
+</main>
+    </div>
+   
+
+  
+    <script src="dash_admin.js">
+    </script>
+
+</body>
+</html>
